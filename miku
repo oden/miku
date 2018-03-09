@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Miku < Brainfuck
+  inc 'みくみくに'
+  dec 'してあげる'
+  nxt '科学の限界を超えて'
+  prv '私は来たんだよ'
+  put 'だからもっと私に歌わせてね'
+  get 'あのね早くパソコンに入れてよ'
+  opn '最後までね'
+  cls '頑張るから'
+end
+
+puts Miku.new.fuck(ARGF.read)
+
